@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		* {
+			box-sizing: border-box;
+			font-family: Arial, Verdana, sans-serif;
+		}
+
+		body {
+			background-color: lightskyblue;
+		}
+		
+		#head{
+		  display: flex;
+			flex-direction: row;
+			margin: 15px 10px;
+		}
+		
+		.header-name {
+		  background-color: #8FD7C7;
+		  border: 2px solid black;
+		  border-width: 40%;
+			margin:0;
+			color: #455A42;
+			padding: 10px 20px ;
+			text-shadow: 2px 2px black;
+		}
+		
+		#menu {
+		  display: flex;
+		  flex-direction: row;
+		  position: absolute;
+		  right: 10px;
+		  border: 2px solid black;
+		  border-width: 40%;
+		}
+
+		#menu div {
+			padding: 20px;
+			background-color:  #8FD7C7;
+		  font-weight: bold;
+		}
+
+		#menu div a {
+			text-decoration: none;
+			color: #455A42 ;
+			text-shadow: 1px 1px white;
+		}
+		
+		.heading{
+		  color: #1E6175;
+		  font-size: 30px;
+		  font-weight: bold;
+		  text-align: center;
+		}
+		
+		#line1{
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: center;
+		}
+		
+		.chem{
+		  border: 2px solid black;
+		  width: 20%;
+		  padding: 20px;
+		  text-align: center;
+		  font-size: 20px;
+		  font-weight: bold;
+		  margin: 10px 2% 20px;
+		  background-color: peachpuff;
+		}
+		.bio{
+		  border: 2px solid black;
+		  width: 20%;
+		  padding: 20px;
+		  text-align: center;
+		  font-size: 20px;
+		  font-weight: bold;
+		  margin: 10px 2% 20px;
+		  background-color: peachpuff;
+		}
+		
+		#line2{
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: center;
+		}
+		
+		.phy{
+		  border: 2px solid black;
+		  width: 20%;
+		  padding: 20px;
+		  text-align: center;
+		  font-size: 20px;
+		  font-weight: bold;
+		  margin: 10px 2% 20px;
+		  background-color: peachpuff;
+		}
+		.eng{
+		  border: 2px solid black;
+		  width: 20%;
+		  padding: 20px;
+		  text-align: center;
+		  font-size: 20px;
+		  font-weight: bold;
+		  margin: 10px 2% 20px;
+		  background-color: peachpuff;
+		}
+		
+		#line3{
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: center;
+		}
+		.dost{
+		  border: 2px solid black;
+		  width: 20%;
+		  padding: 20px;
+		  text-align: center;
+		  font-size: 20px;
+		  font-weight: bold;
+		  margin: 10px 2% 20px;
+		  background-color: peachpuff;
+		}
+
+		#bar {
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+		}
+
+		#bar div {
+			padding: 20px;
+		}
+
+		#bar div a  {
+			text-decoration: none;
+			font-weight: bold;
+			color: #B0578D;
+		}
+	</style>
+</head>
+<body>
+  <div id="head">
+  	<div class="header">
+  		<h1 class="header-name"> COURSE FINDER: Pisay Edition</h1>
+  	</div>
+  	<div id="menu">
+    <div class="menu-home"> <a href="/Final/Home.html" >HOME</a> </div>
+  	<div class="menu-list"> <a href="/Final/Course.html">COURSE LIST</a> </div>
+  	<div class="menu-contact"> <a href="contact.html">CONTACT</a></div>
+  	</div>
+	</div>
+	
+		<div id="contents">
+		<div class="heading">
+	  <p>Course Field List</p>
+	  </div>
+	  <div id="line1">
+	    <div class="chem">
+	    <a>Chemistry</a>
+	    </div>
+	    <div class="bio">
+	   <a>Biology</a>
+	    </div>
+	  </div>
+	  <div id="line2">
+	    <div class="phy">
+	    <a>Physics</a>
+	    </div>
+	    <div class="eng">
+	    <a>Engineering</a>
+	    </div>
+	  </div class="dost">
+	  <div id="line3">
+	    <div class="dost">
+	    <a>DOST-SEI</a>
+	    </div>
+	  </div>
+	</div>
+	
+	<div id="bar">
+		<div class="bar-home"> <a href="/Final/Home.html" >Home</a> </div>
+		<div class="bar-list"> <a href="/Final/Course.html">Course List</a> </div>
+		<div class="bar-contact"> <a href="contact.html">Contact</a></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		* {
+			box-sizing: border-box;
+			font-family: Arial, Verdana, sans-serif;
+		}
+
+		body {
+			background-color: lightskyblue;
+		}
+		
+		#head{
+		  display: flex;
+			flex-direction: row;
+			margin: 15px 10px;
+		}
+		
+		.header-name {
+		  background-color: #8FD7C7;
+		  border: 2px solid black;
+		  border-width: 40%;
+			margin:0;
+			color: #455A42;
+			padding: 10px 20px ;
+			text-shadow: 2px 2px black;
+		}
+		
+		#menu {
+		  display: flex;
+		  flex-direction: row;
+		  position: absolute;
+		  right: 10px;
+		  border: 2px solid black;
+		  border-width: 40%;
+		}
+
+		#menu div {
+			padding: 20px;
+			background-color:  #8FD7C7;
+		  font-weight: bold;
+		}
+
+		#menu div a {
+			text-decoration: none;
+			color: #455A42 ;
+			text-shadow: 1px 1px white;
+		}
+		
+		#contents h2{
+		  color: #1E6175;
+		  font-size: 30px;
+		  font-weight: bold;
+		  text-align: center;
+		}
+		
+		.description{
+		  background-color: peachpuff;
+		  border: 2px solid black;
+		  margin: 0 15% 20px;
+		  text-indent: 10px; 
+		  text-align: justify;
+		  padding: 10px 30px;
+		}
+		
+		#bar {
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+		}
+
+		#bar div {
+			padding: 20px;
+		}
+
+		#bar div a  {
+			text-decoration: none;
+			font-weight: bold;
+			color: #B0578D;
+		}
+	</style>
+</head>
+<body>
+  <div id="head">
+  	<div class="header">
+  		<h1 class="header-name"> COURSE FINDER: Pisay Edition</h1>
+  	</div>
+  	<div id="menu">
+    <div class="menu-home"> <a href="/Final/Home.html" >HOME</a> </div>
+  	<div class="menu-list"> <a href="/Final/Course.html">COURSE LIST</a> </div>
+  	<div class="menu-contact"> <a href="contact.html">CONTACT</a></div>
+  	</div>
+	</div>
+		<div id="contents">
+  	  <h2>Welcome!</h2>
+  	  <div class="description">
+  	    <p>Students who graduate from the Philippine Science High
+  School must enroll in a bachelor's degree program in
+  science. This is a mandate based on the Scholarship
+  Agreement Contract. This website aims to assist students in
+  selecting a course from undergraduate courses approved
+  by the Philippine Science High School System. Students
+  can choose what Science and Technology course to take
+  related to the field of Biology, Chemistry or
+  Engineering/Mathematics. Those students who plan to be
+  a DOST Undergraduate scholar can also see the
+  approved Undergraduate course by the DOST-SEI. A list of
+  the approved courses that are offered is given under this
+  website.</p>
+  	  </div>
+  	</div>
+	
+	<div id="bar">
+		<div class="bar-home"> <a href="/Final/Home.html" >Home</a> </div>
+		<div class="bar-list"> <a href="/Final/Course.html">Course List</a> </div>
+		<div class="bar-contact"> <a href="contact.html">Contact</a></div>
+	</div>
+</body>
+</html>
